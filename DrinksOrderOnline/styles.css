@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3e3c3c;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav .logo {
+    color: #61dafb;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #61dafb;
+  }
+  
+  nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  nav .nav-links a:hover {
+    color: #61dafb;
+    text-shadow: 0 0 10px #61dafb;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 20px #61dafb;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #61dafb;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 1rem 2rem;
+   
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.1);
+  }
+  
+  /* Products Section */
+  .products {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px #61dafb;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 20px rgba(97, 218, 251, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(97, 218, 251, 0.8);
+  }
+  
+  .product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #61dafb;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px #61dafb;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  .contact input, .contact textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  
+  .contact button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.1);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+
+  /* Product Images */
+.product-image {
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Order Form */
+  .order {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .order h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 20px #61dafb;
+  }
+  
+  .order form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .order label {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  .order input, .order textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  
+  .order button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .order button:hover {
+    background-color: #21a1f1;
+    transform: scale(1.1);
+  }
