@@ -1,4 +1,4 @@
-// Dynamic Product List for Products Page
+// Product List for Products Page
 if (window.location.pathname.includes("products.html")) {
     const products = [
       {
