@@ -1,0 +1,1 @@
+This project is a front-end web application that allows users to place Starbucks drink orders online. It provides a seamless and interactive experience where users can browse the Starbucks menu, customize their drink preferences, and complete their orders—all from the comfort of their home.
